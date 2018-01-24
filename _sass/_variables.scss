@@ -7,12 +7,16 @@
 //
 //## Gray and brand colors for use across Bootstrap.
 
-$brand-primary:         #f92672;
+$brand-primary:         #660033;
 $brand-dark:            #373e42;
-$brand-light:           #C0B283;
-$brand-compliment-1:    #C0B283;
-$brand-compliment-2:    #e9d28a;
+$brand-light:           #8c8e90;
+$brand-compliment-1:    #8c8e90;
+$brand-compliment-2:    #A0662D;
 $brand-accent:          $brand-primary;
+
+// Link Color
+$link-color: $brand-primary;
+// $link-color: $brand-light;
 
 
 
@@ -123,10 +127,6 @@ $headings-line-height:   1.1 !default;
 $headings-color:         inherit !default;
 
 
-// Font Colors
-//
-
-$link-color: $brand-primary;
 
 // Code
 //

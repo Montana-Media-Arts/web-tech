@@ -7,10 +7,14 @@ module: 1
 
 That is it for Week 1. I hope you are excited for this course and everything we are going to learn this semester.
 
-## Homework
+Remember, if you need help, you should try using the course ["Issues Forum" hosted on GitHub](https://github.com/Montana-Media-Arts/441-WebTech/issues).
 
-Your homework for this week is to;
+## Study Groups
 
-1. Read the Syllabus
-2. Work through the appropriate Command Line Interface (CLI) tutorials for your operating system (OS).
-3. Create a GitHub.com account.
+Another strategy I would suggest you adopt, regardless of whether you need help right now, is to form a study/work group for this class. Consider reaching out to your fellow classmates. You could do this through the Issues Forum...
+
+## Date Information
+
+If you have not noticed yet, the dates that a module is active are posted up above, along with the deadline for tat weeks homework.
+
+As a gentle reminder, you homework is due by {{ site.data.dates[1][1] }}.

@@ -183,3 +183,12 @@ blockquote {
 	display: block;
 	margin: auto;
 }
+
+
+
+// link underline
+.content {
+    a {
+        border-bottom: 3px solid $link-color;
+    }
+}
