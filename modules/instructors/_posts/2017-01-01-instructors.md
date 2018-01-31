@@ -37,5 +37,5 @@ Dr. Michael Musick built and maintains this course. Please contact Dr. Musick fo
 
 For those of you in Missoula, you are welcome to come by for help during my office hours. This is **the best** method for getting in touch with me and getting my help.
 
-- Tuesday: 11:30am - 1:30pm
-- Wednesday: 2:30pm - 4:00pm
+- Mondays:    3:30pm - 5:00pm
+- Thursdays: 12:00pm - 1:30pm
