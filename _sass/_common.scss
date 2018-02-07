@@ -1,6 +1,11 @@
 
 body {
 	line-height: 1.6;
+    overflow-x: hidden !important;
+}
+
+.content {
+    overflow-x: visible;
 
 }
 
@@ -137,7 +142,8 @@ table {
 	}
 }
 
-.highlighter-rouge + table {
+.highlighter-rouge + table,
+script + table {
 	margin-top: 1em;
 }
 

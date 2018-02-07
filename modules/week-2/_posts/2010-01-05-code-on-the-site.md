@@ -71,22 +71,27 @@ To do this;
     - perhaps add some more text, or change the tag types...?
 - and go back to Results. You should now see your changes!
 
-<div class="displayed_jotted_example">
-    <div id="jotted-demo-1" class=""></div>
-</div>
+
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/02/03-document-write/script.js"
         },
         {
             type: "html",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/02/03-document-write/index.html"
+
     }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 
@@ -113,47 +118,27 @@ Within this course website, you might see long blocks, like the following. This 
 
 
 
-<div id="code-heading">JS</div>
 
-```js
-document.write("<h1>Hello World!</h1>");
-```
+<div id="jotted-demo-2" class="jotted-theme-stacked"></div>
 
-<div id="code-ruler"></div>
-<div id="code-heading">HTML</div>
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Using document.write</title>
-        <style>
-            body{ background-color: red;}
-        </style>
-    </head>
-    <body>
-        <script src="./script.js"></script>
-    </body>
-</html>
-```
-
-<div class="displayed_jotted_example">
-    <div id="jotted-demo-2" class=""></div>
-</div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-2"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/02/03-document-write/script.js"
         },
         {
             type: "html",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/02/03-document-write/index.html"
+
     }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
 

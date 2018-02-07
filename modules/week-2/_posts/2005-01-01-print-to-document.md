@@ -18,48 +18,31 @@ The `document.write()` function, in some ways, could be likened to a sledge-hamm
 
 The following example places a level 1 header in an HTML document using the `document.write()` function. This function is placed in a separate JavaScript file, with the string of formatted markup text. As with before, this _script_ is called from the HTML document, using the script tag.
 
-<div id="code-heading">JS</div>
 
-```js
-document.write("<h1>Hello World!</h1>");
-```
+<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
 
-<div id="code-ruler"></div>
-<div id="code-heading">HTML</div>
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Using document.write</title>
-        <style>
-            body{ background-color: red;}
-        </style>
-    </head>
-    <body>
-        <script src="./script.js"></script>
-    </body>
-</html>
-```
-
-<div class="displayed_jotted_example">
-    <div id="jotted-demo-1" class=""></div>
-</div>
 <script>
     new Jotted(document.querySelector("#jotted-demo-1"), {
     files: [
         {
             type: "js",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/02/03-document-write/script.js"
         },
         {
             type: "html",
+            hide: false,
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/02/03-document-write/index.html"
-    }],
-    // plugins: [ "codemirror", "console" ]
-    plugins: [ "codemirror" ]
+        }
+    ],
+    showBlank: false,
+    showResult: true,
+    plugins: [
+        { name: 'ace', options: { "maxLines": 50 } },
+        // { name: 'console', options: { autoClear: true } },
+    ]
 });
 </script>
+
 
 | [**[Code Download]**](https://github.com/Montana-Media-Arts/441-WebTech/raw/master/lecture_code/02/03-document-write/03-document-write.zip) | [**[View on GitHub ]**](https://github.com/Montana-Media-Arts/441-WebTech/raw/master/lecture_code/02/03-document-write/) | [**[Live Example]**](https://montana-media-arts.github.io/441-WebTech/lecture_code/02/03-document-write/) |
