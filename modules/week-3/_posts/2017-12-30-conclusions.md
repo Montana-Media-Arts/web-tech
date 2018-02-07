@@ -1,6 +1,6 @@
 ---
 title: Weekly Conclusions
-module:
+module: 3
 jotted: false
 ---
 
@@ -9,4 +9,4 @@ jotted: false
 
 ## Next Week
 
-Next week
+This week, we began to dig into the details of JavaScript. The homework should test your ability to assimilate this information with basic problem solving skills. Next week we will continue to examine the details and workings of JavaScript as we look at Functions and Data Structures. 

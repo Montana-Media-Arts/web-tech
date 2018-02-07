@@ -108,7 +108,7 @@ $code-side-offset: 15;
     flex-direction: column;
 
     margin: 0 ($spacer * -1 * $code-side-offset) 0 ($spacer * -1 * $code-side-offset);
-    border-top: $spacer;
+    border-top: ($spacer * 2);
     border-bottom: ($spacer * 1);
     border-left: ($spacer * $code-side-offset);
     border-right: ($spacer * $code-side-offset);
