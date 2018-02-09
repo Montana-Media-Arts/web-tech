@@ -1,14 +1,10 @@
 ---
 ---
 
-
-
-
-    .displayed_code_example {
-
+.displayed_code_example,
+.displayed_jotted_example iframe {
     font-family: serif;
     font-size: 16pt;
-
     /*
      * The default style sheet used to render HTML in Chrome.
      *
@@ -31,47 +27,43 @@
      * Boston, MA 02110-1301, USA.
      *
      */
-
     @namespace "http://www.w3.org/1999/xhtml";
 
     html {
-        display: block
+        display: block;
     }
-
     /* children of the <head> element all have display:none */
     head {
-        display: none
+        display: none;
     }
 
     meta {
-        display: none
+        display: none;
     }
 
     title {
-        display: none
+        display: none;
     }
 
     link {
-        display: none
+        display: none;
     }
 
     style {
-        display: none
+        display: none;
     }
 
     script {
-        display: none
+        display: none;
     }
-
     /* generic block-level elements */
-
     body {
         display: block;
-        margin: 8px
+        margin: 8px;
     }
 
     body:-webkit-full-page-media {
-        background-color: rgb(0, 0, 0)
+        background-color: rgb(0, 0, 0);
     }
 
     p {
@@ -87,15 +79,22 @@
     }
 
     div {
-        display: block
+        display: block;
     }
 
     layer {
-        display: block
+        display: block;
     }
 
-    article, aside, footer, header, hgroup, main, nav, section {
-        display: block
+    article,
+    aside,
+    footer,
+    header,
+    hgroup,
+    main,
+    nav,
+    section {
+        display: block;
     }
 
     marquee {
@@ -104,7 +103,7 @@
     }
 
     address {
-        display: block
+        display: block;
     }
 
     blockquote {
@@ -116,7 +115,7 @@
     }
 
     figcaption {
-        display: block
+        display: block;
     }
 
     figure {
@@ -128,7 +127,7 @@
     }
 
     q {
-        display: inline
+        display: inline;
     }
 
     q:before {
@@ -142,7 +141,7 @@
     center {
         display: block;
         /* special centering to be able to emulate the html4/netscape behaviour */
-        text-align: -webkit-center
+        text-align: -webkit-center;
     }
 
     hr {
@@ -152,58 +151,56 @@
         -webkit-margin-start: auto;
         -webkit-margin-end: auto;
         border-style: inset;
-        border-width: 1px
+        border-width: 1px;
     }
 
     map {
-        display: inline
+        display: inline;
     }
 
     video {
         object-fit: contain;
     }
-
     /* heading elements */
-
     h1 {
         font-family: serif;
         display: block;
         font-size: 2em;
-        margin: .67em 0;
+        margin: 0.67em 0;
         line-height: 1em;
         -webkit-margin-before: 0.67__qem;
         -webkit-margin-after: 0.67em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        font-weight: bold
+        font-weight: bold;
     }
 
-    :-webkit-any(article,aside,nav,section) h1 {
+    :-webkit-any(article, aside, nav, section) h1 {
         font-size: 1.5em;
         -webkit-margin-before: 0.83__qem;
         -webkit-margin-after: 0.83em;
     }
 
-    :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) h1 {
+    :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1 {
         font-size: 1.17em;
         -webkit-margin-before: 1__qem;
         -webkit-margin-after: 1em;
     }
 
-    :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) h1 {
+    :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1 {
         font-size: 1.00em;
         -webkit-margin-before: 1.33__qem;
         -webkit-margin-after: 1.33em;
     }
 
-    :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) h1 {
-        font-size: .83em;
+    :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1 {
+        font-size: 0.83em;
         -webkit-margin-before: 1.67__qem;
         -webkit-margin-after: 1.67em;
     }
 
-    :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) :-webkit-any(article,aside,nav,section) h1 {
-        font-size: .67em;
+    :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1 {
+        font-size: 0.67em;
         -webkit-margin-before: 2.33__qem;
         -webkit-margin-after: 2.33em;
     }
@@ -218,20 +215,20 @@
         -webkit-margin-after: 0.83em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        font-weight: bold
+        font-weight: bold;
     }
 
     h3 {
         font-family: serif;
         display: block;
         font-size: 1.17em;
-        margin: .83em 0;
+        margin: 0.83em 0;
         line-height: 1em;
         -webkit-margin-before: 1__qem;
         -webkit-margin-after: 1em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        font-weight: bold
+        font-weight: bold;
     }
 
     h4 {
@@ -244,7 +241,7 @@
         -webkit-margin-after: 1.33em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        font-weight: bold
+        font-weight: bold;
     }
 
     h5 {
@@ -252,12 +249,12 @@
         display: block;
         margin: 1.5em 0;
         line-height: 1em;
-        font-size: .89em;
+        font-size: 0.89em;
         -webkit-margin-before: 1.67__qem;
         -webkit-margin-after: 1.67em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        font-weight: bold
+        font-weight: bold;
     }
 
     h6 {
@@ -265,85 +262,83 @@
         display: block;
         margin: 1.67em 0;
         line-height: 1em;
-        font-size: .67em;
+        font-size: 0.67em;
         -webkit-margin-before: 2.33__qem;
         -webkit-margin-after: 2.33em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        font-weight: bold
+        font-weight: bold;
     }
-
     /* tables */
-
     table {
         display: table;
         border-collapse: separate;
         border-spacing: 2px;
-        border-color: gray
+        border-color: gray;
     }
 
     thead {
         display: table-header-group;
         vertical-align: middle;
-        border-color: inherit
+        border-color: inherit;
     }
 
     tbody {
         display: table-row-group;
         vertical-align: middle;
-        border-color: inherit
+        border-color: inherit;
     }
 
     tfoot {
         display: table-footer-group;
         vertical-align: middle;
-        border-color: inherit
+        border-color: inherit;
     }
-
     /* for tables without table section elements (can happen with XHTML or dynamically created tables) */
     table > tr {
         vertical-align: middle;
     }
 
     col {
-        display: table-column
+        display: table-column;
     }
 
     colgroup {
-        display: table-column-group
+        display: table-column-group;
     }
 
     tr {
         display: table-row;
         vertical-align: inherit;
-        border-color: inherit
+        border-color: inherit;
     }
 
-    td, th {
+    td,
+    th {
         display: table-cell;
-        vertical-align: inherit
+        vertical-align: inherit;
     }
 
     th {
         font-weight: bold;
-        text-align: -internal-center
+        text-align: -internal-center;
     }
 
     caption {
         display: table-caption;
-        text-align: -webkit-center
+        text-align: -webkit-center;
     }
-
     /* lists */
-
-    ul, menu, dir {
+    dir,
+    menu,
+    ul {
         display: block;
         list-style-type: disc;
         -webkit-margin-before: 1__qem;
         -webkit-margin-after: 1em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        -webkit-padding-start: 40px
+        -webkit-padding-start: 40px;
     }
 
     ol {
@@ -353,7 +348,7 @@
         -webkit-margin-after: 1em;
         -webkit-margin-start: 0;
         -webkit-margin-end: 0;
-        -webkit-padding-start: 40px
+        -webkit-padding-start: 40px;
     }
 
     li {
@@ -364,17 +359,21 @@
         line-height: 1em;
     }
 
-    ul ul, ol ul {
-        list-style-type: circle
+    ol ul,
+    ul ul {
+        list-style-type: circle;
     }
 
-    ol ol ul, ol ul ul, ul ol ul, ul ul ul {
-        list-style-type: square
+    ol ol ul,
+    ol ul ul,
+    ul ol ul,
+    ul ul ul {
+        list-style-type: square;
     }
 
     dd {
         display: block;
-        -webkit-margin-start: 40px
+        -webkit-margin-start: 40px;
     }
 
     dl {
@@ -386,16 +385,17 @@
     }
 
     dt {
-        display: block
+        display: block;
     }
 
-    ol ul, ul ol, ul ul, ol ol {
+    ol ol,
+    ol ul,
+    ul ol,
+    ul ul {
         -webkit-margin-before: 0;
-        -webkit-margin-after: 0
+        -webkit-margin-after: 0;
     }
-
     /* form elements */
-
     form {
         display: block;
         margin-top: 0__qem;
@@ -409,7 +409,7 @@
         display: block;
         -webkit-padding-start: 2px;
         -webkit-padding-end: 2px;
-        border: none
+        border: none;
     }
 
     fieldset {
@@ -427,17 +427,25 @@
     button {
         -webkit-appearance: button;
     }
-
     /* Form controls don't go vertical. */
-    input, textarea, select, button, meter, progress {
+    button,
+    input,
+    meter,
+    progress,
+    select,
+    textarea {
         -webkit-writing-mode: horizontal-tb !important;
     }
 
-    input, textarea, select, button {
+    button,
+    input,
+    select,
+    textarea {
         margin: 0__qem;
         font-family: serif;
         font: -webkit-small-control;
-        text-rendering: auto; /* FIXME: Remove when tabs work with optimizeLegibility. */
+        text-rendering: auto;
+        /* FIXME: Remove when tabs work with optimizeLegibility. */
         color: initial;
         letter-spacing: normal;
         word-spacing: normal;
@@ -450,7 +458,7 @@
     }
 
     input[type="hidden" i] {
-        display: none
+        display: none;
     }
 
     input {
@@ -485,7 +493,7 @@
         pointer-events: none;
     }
 
-    input:enabled:read-write:-webkit-any(:focus,:hover)::-webkit-clear-button {
+    input:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-clear-button {
         opacity: 1;
         pointer-events: auto;
     }
@@ -500,7 +508,7 @@
         pointer-events: none;
     }
 
-    input[type="search" i]:enabled:read-write:-webkit-any(:focus,:hover)::-webkit-search-cancel-button {
+    input[type="search" i]:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-search-cancel-button {
         opacity: 1;
         pointer-events: auto;
     }
@@ -517,7 +525,7 @@
         pointer-events: none;
     }
 
-    input:enabled:read-write:-webkit-any(:focus,:hover)::-webkit-inner-spin-button {
+    input:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-inner-spin-button {
         opacity: 1;
         pointer-events: auto;
     }
@@ -559,7 +567,9 @@
         -webkit-text-security: disc !important;
     }
 
-    input[type="hidden" i], input[type="image" i], input[type="file" i] {
+    input[type="hidden" i],
+    input[type="image" i],
+    input[type="file" i] {
         -webkit-appearance: initial;
         padding: initial;
         background-color: initial;
@@ -572,23 +582,28 @@
         text-align: start !important;
     }
 
-    input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    input:-webkit-autofill,
+    select:-webkit-autofill,
+    textarea:-webkit-autofill {
         background-color: #FAFFBD !important;
-        background-image:none !important;
+        background-image: none !important;
         color: #000000 !important;
     }
 
-    input[type="radio" i], input[type="checkbox" i] {
+    input[type="radio" i],
+    input[type="checkbox" i] {
         margin: 3px 0.5ex;
         padding: initial;
         background-color: initial;
         border: initial;
     }
 
-    input[type="button" i], input[type="submit" i], input[type="reset" i] {
+    input[type="button" i],
+    input[type="submit" i],
+    input[type="reset" i] {
         -webkit-appearance: push-button;
         -webkit-user-select: none;
-        white-space: pre
+        white-space: pre;
     }
 
     input[type="file" i]::-webkit-file-upload-button {
@@ -599,15 +614,19 @@
         font-size: inherit;
     }
 
-    input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    input[type="button" i],
+    input[type="submit" i],
+    input[type="reset" i],
+    input[type="file" i]::-webkit-file-upload-button,
+    button {
         align-items: flex-start;
         text-align: center;
         cursor: default;
         color: ButtonText;
-        padding: 2px 6px 3px 6px;
+        padding: 2px 6px 3px;
         border: 2px outset ButtonFace;
         background-color: ButtonFace;
-        box-sizing: border-box
+        box-sizing: border-box;
     }
 
     input[type="range" i] {
@@ -618,7 +637,8 @@
         color: #909090;
     }
 
-    input[type="range" i]::-webkit-slider-container, input[type="range" i]::-webkit-media-slider-container {
+    input[type="range" i]::-webkit-slider-container,
+    input[type="range" i]::-webkit-media-slider-container {
         flex: 1;
         min-width: 0;
         box-sizing: border-box;
@@ -630,35 +650,49 @@
         flex: 1;
         min-width: 0;
         -webkit-align-self: center;
-
         box-sizing: border-box;
         -webkit-user-modify: read-only !important;
         display: block;
     }
 
-    input[type="range" i]::-webkit-slider-thumb, input[type="range" i]::-webkit-media-slider-thumb {
+    input[type="range" i]::-webkit-slider-thumb,
+    input[type="range" i]::-webkit-media-slider-thumb {
         -webkit-appearance: sliderthumb-horizontal;
         box-sizing: border-box;
         -webkit-user-modify: read-only !important;
         display: block;
     }
 
-    input[type="button" i]:disabled, input[type="submit" i]:disabled, input[type="reset" i]:disabled,
-    input[type="file" i]:disabled::-webkit-file-upload-button, button:disabled,
-    select:disabled, optgroup:disabled, option:disabled,
-    select[disabled]>option {
-        color: GrayText
+    input[type="button" i]:disabled,
+    input[type="submit" i]:disabled,
+    input[type="reset" i]:disabled,
+    input[type="file" i]:disabled::-webkit-file-upload-button,
+    button:disabled,
+    select:disabled,
+    optgroup:disabled,
+    option:disabled,
+    select[disabled] > option {
+        color: GrayText;
     }
 
-    input[type="button" i]:active, input[type="submit" i]:active, input[type="reset" i]:active, input[type="file" i]:active::-webkit-file-upload-button, button:active {
-        border-style: inset
+    input[type="button" i]:active,
+    input[type="submit" i]:active,
+    input[type="reset" i]:active,
+    input[type="file" i]:active::-webkit-file-upload-button,
+    button:active {
+        border-style: inset;
     }
 
-    input[type="button" i]:active:disabled, input[type="submit" i]:active:disabled, input[type="reset" i]:active:disabled, input[type="file" i]:active:disabled::-webkit-file-upload-button, button:active:disabled {
-        border-style: outset
+    input[type="button" i]:active:disabled,
+    input[type="submit" i]:active:disabled,
+    input[type="reset" i]:active:disabled,
+    input[type="file" i]:active:disabled::-webkit-file-upload-button,
+    button:active:disabled {
+        border-style: outset;
     }
 
-    input:disabled, textarea:disabled {
+    input:disabled,
+    textarea:disabled {
         color: #545454;
     }
 
@@ -668,7 +702,7 @@
     }
 
     datalist {
-        display: none
+        display: none;
     }
 
     area {
@@ -677,7 +711,7 @@
     }
 
     param {
-        display: none
+        display: none;
     }
 
     input[type="checkbox" i] {
@@ -701,12 +735,12 @@
     }
 
     input[type="color" i]::-webkit-color-swatch-wrapper {
-        display:flex;
+        display: flex;
         padding: 4px 2px;
         box-sizing: border-box;
         -webkit-user-modify: read-only !important;
         width: 100%;
-        height: 100%
+        height: 100%;
     }
 
     input[type="color" i]::-webkit-color-swatch {
@@ -720,7 +754,7 @@
     input[type="color" i][list] {
         -webkit-appearance: menulist;
         width: 88px;
-        height: 23px
+        height: 23px;
     }
 
     input[type="color" i][list]::-webkit-color-swatch-wrapper {
@@ -746,8 +780,8 @@
         background-color: #eee;
     }
 
-    input:enabled:read-write:-webkit-any(:focus,:hover)::-webkit-calendar-picker-indicator,
-    input::-webkit-calendar-picker-indicator:focus {
+    input::-webkit-calendar-picker-indicator:focus,
+    input:enabled:read-write:-webkit-any(:focus, :hover)::-webkit-calendar-picker-indicator {
         opacity: 1;
         pointer-events: auto;
     }
@@ -809,17 +843,17 @@
     option {
         font-weight: normal;
         display: block;
-        padding: 0 2px 1px 2px;
+        padding: 0 2px 1px;
         white-space: pre;
         min-height: 1.2em;
     }
 
     select:-internal-list-box optgroup option:before {
-        content: "\00a0\00a0\00a0\00a0";;
+        content: "\00a0\00a0\00a0\00a0";
     }
 
-    select:-internal-list-box option,
-    select:-internal-list-box optgroup {
+    select:-internal-list-box optgroup,
+    select:-internal-list-box option {
         line-height: initial !important;
     }
 
@@ -837,8 +871,8 @@
         color: -internal-inactive-list-box-selection-text !important;
     }
 
-    select:-internal-list-box:disabled option:checked,
-    select:-internal-list-box option:checked:disabled {
+    select:-internal-list-box option:checked:disabled,
+    select:-internal-list-box:disabled option:checked {
         color: gray !important;
     }
 
@@ -849,9 +883,7 @@
     output {
         display: inline;
     }
-
     /* meter */
-
     meter {
         -webkit-appearance: meter;
         box-sizing: border-box;
@@ -907,9 +939,7 @@
         -webkit-user-modify: read-only !important;
         box-sizing: border-box;
     }
-
     /* progress */
-
     progress {
         -webkit-appearance: progress-bar;
         box-sizing: border-box;
@@ -937,88 +967,106 @@
     progress::-webkit-progress-value {
         background-color: green;
         height: 100%;
-        width: 50%; /* should be removed later */
+        width: 50%;
+        /* should be removed later */
         -webkit-user-modify: read-only !important;
         box-sizing: border-box;
     }
-
     /* inline elements */
-
-    u, ins {
-        text-decoration: underline
+    ins,
+    u {
+        text-decoration: underline;
     }
 
-    abbr[title], acronym[title] {
+    abbr[title],
+    acronym[title] {
         text-decoration: dotted underline;
     }
 
-    strong, b {
-        font-weight: bold
+    b,
+    strong {
+        font-weight: bold;
     }
 
-    i, cite, em, var, address, dfn {
-        font-style: italic
+    address,
+    cite,
+    dfn,
+    em,
+    i,
+    var {
+        font-style: italic;
     }
 
-    tt, code, kbd, samp {
-        font-family: monospace
+    code,
+    kbd,
+    samp,
+    tt {
+        font-family: monospace;
     }
 
-    pre, xmp, plaintext, listing {
+    listing,
+    plaintext,
+    pre,
+    xmp {
         display: block;
         font-family: monospace;
         white-space: pre;
-        margin: 1__qem 0
+        margin: 1__qem 0;
     }
 
     mark {
         background-color: yellow;
-        color: black
+        color: black;
     }
 
     big {
-        font-size: larger
+        font-size: larger;
     }
 
     small {
-        font-size: smaller
+        font-size: smaller;
     }
 
-    s, strike, del {
-        text-decoration: line-through
+    del,
+    s,
+    strike {
+        text-decoration: line-through;
     }
 
     sub {
         vertical-align: sub;
-        font-size: smaller
+        font-size: smaller;
     }
 
     sup {
         vertical-align: super;
-        font-size: smaller
+        font-size: smaller;
     }
 
     nobr {
-        white-space: nowrap
+        white-space: nowrap;
     }
-
     /* states */
-
     :focus {
-        outline: auto 5px -webkit-focus-ring-color
+        outline: auto 5px -webkit-focus-ring-color;
     }
-
     /* Read-only text fields do not show a focus ring but do still receive focus */
-    html:focus, body:focus, input[readonly]:focus {
-        outline: none
+    body:focus,
+    html:focus,
+    input[readonly]:focus {
+        outline: none;
     }
 
-    embed:focus, iframe:focus, object:focus {
-        outline: none
+    embed:focus,
+    iframe:focus,
+    object:focus {
+        outline: none;
     }
 
-    input:focus, textarea:focus, select:focus {
-        outline-offset: -2px
+    input:focus,
+    select:focus,
+    textarea:focus {
+        outline-offset: -2px;
     }
 
     input[type="button" i]:focus,
@@ -1030,7 +1078,7 @@
     input[type="reset" i]:focus,
     input[type="submit" i]:focus,
     input[type="file" i]:focus::-webkit-file-upload-button {
-        outline-offset: 0
+        outline-offset: 0;
     }
 
     a:-webkit-any-link {
@@ -1040,13 +1088,13 @@
     }
 
     a:-webkit-any-link:active {
-        color: -webkit-activelink
+        color: -webkit-activelink;
     }
-
     /* HTML5 ruby elements */
-
-    ruby, rt {
-        text-indent: 0; /* blocks used for ruby rendering should not trigger this */
+    rt,
+    ruby {
+        text-indent: 0;
+        /* blocks used for ruby rendering should not trigger this */
     }
 
     rt {
@@ -1063,31 +1111,30 @@
     ruby > rp {
         display: none;
     }
-
     /* other elements */
-
     noframes {
-        display: none
+        display: none;
     }
 
-    frameset, frame {
-        display: block
+    frame,
+    frameset {
+        display: block;
     }
 
     frameset {
-        border-color: inherit
+        border-color: inherit;
     }
 
     iframe {
-        border: 2px inset
+        border: 2px inset;
     }
 
     details {
-        display: block
+        display: block;
     }
 
     summary {
-        display: block
+        display: block;
     }
 
     summary::-webkit-details-marker {
@@ -1098,10 +1145,11 @@
     }
 
     template {
-        display: none
+        display: none;
     }
 
-    bdi, output {
+    bdi,
+    output {
         unicode-bidi: -webkit-isolate;
     }
 
@@ -1114,7 +1162,7 @@
     }
 
     dialog:not([open]) {
-        display: none
+        display: none;
     }
 
     dialog {
@@ -1127,7 +1175,7 @@
         border: solid;
         padding: 1em;
         background: white;
-        color: black
+        color: black;
     }
 
     dialog::backdrop {
@@ -1136,29 +1184,25 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background: rgba(0,0,0,0.1)
+        background: rgba(0,0,0,0.1);
     }
 
     slot {
         display: contents;
     }
-
     /* page */
-
     @page {
         /* FIXME: Define the right default values for page properties. */
         size: auto;
         margin: auto;
-        padding: 0px;
-        border-width: 0px;
+        padding: 0;
+        border-width: 0;
     }
-
     /* Allows thead sections to print at the top of each page. */
     @media print {
-        thead { break-inside:avoid; }
+        thead {
+            break-inside: avoid;
+        }
     }
-
     /* noscript is handled internally, as it depends on settings. */
-
-
 }
