@@ -157,10 +157,10 @@ To get started, please read the following, which cover the usage and definition 
 
 While you work on this chapter, you should use the following interactive JS console to test.
 
-<div id="jotted-demo-1" class="jotted-theme-stacked"></div>
+<div id="jotted-demo-0" class="jotted-theme-stacked"></div>
 
 <script>
-    new Jotted(document.querySelector("#jotted-demo-1"), {
+    new Jotted(document.querySelector("#jotted-demo-0"), {
     files: [
         {
             type: "js",
