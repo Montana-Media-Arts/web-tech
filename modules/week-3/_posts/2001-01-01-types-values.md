@@ -6,11 +6,15 @@ jotted: true
 
 # Values, Data Types, & Operators
 
-Please read the following chapter from;
+Please read the following;
 
 - Haverbeke, Marijn. **Eloquent JavaScript: A Modern Introduction to Programming.** 3rd Edition. N.p., 2018. Web.
-    - [http://eloquentjavascript.net/3rd_edition/index.html](http://eloquentjavascript.net/3rd_edition/index.html)
-- [_Chapter 1; Values, Types, and Operators_](http://eloquentjavascript.net/3rd_edition/01_values.html)
+    - [_Chapter 1; Values, Types, and Operators_](http://eloquentjavascript.net/3rd_edition/01_values.html)
+- **JavaScript Guide.** MDN web docs. 2018. Web.
+    - [_Grammar and Types_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types)
+    - [_Expressions and operators_](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators)
+
+
 
 ## Goals
 
@@ -71,3 +75,11 @@ While you work on this chapter, you should use the following interactive JS cons
     ]
 });
 </script>
+
+
+
+## Videos
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/808eYu9B9Yw" frameborder="0" allowfullscreen></iframe></div>
+
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Vd_Z1bYGrCM" frameborder="0" allowfullscreen></iframe></div>
