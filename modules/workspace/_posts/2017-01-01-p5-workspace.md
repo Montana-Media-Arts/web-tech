@@ -33,6 +33,7 @@ jotted: true
     plugins: [
         { name: 'ace', options: { "maxLines": 100 } },
         { name: 'console', options: { autoClear: true } },
+        { name: 'play', options: { /* firstRun: false */ } },
     ]
 });
 </script>
