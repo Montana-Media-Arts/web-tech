@@ -88,6 +88,9 @@ To do this;
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/02/03-document-write/index.html"
 
     }],
+    showBlank: false,
+    showResult: true,
+    runScripts: false,
     plugins: [
         { name: 'ace', options: { "maxLines": 50 } },
         // { name: 'console', options: { autoClear: true } },
@@ -135,6 +138,9 @@ Within this course website, you might see long blocks, like the following. This 
             url:"https://raw.githubusercontent.com/Montana-Media-Arts/441-WebTech/master/lecture_code/02/03-document-write/index.html"
 
     }],
+    showBlank: false,
+    showResult: true,
+    runScripts: false,
     plugins: [
         { name: 'ace', options: { "maxLines": 50 } },
         // { name: 'console', options: { autoClear: true } },

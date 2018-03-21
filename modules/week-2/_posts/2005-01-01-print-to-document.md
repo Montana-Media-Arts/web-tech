@@ -37,6 +37,7 @@ The following example places a level 1 header in an HTML document using the `doc
     ],
     showBlank: false,
     showResult: true,
+    runScripts: false,
     plugins: [
         { name: 'ace', options: { "maxLines": 50 } },
         // { name: 'console', options: { autoClear: true } },
