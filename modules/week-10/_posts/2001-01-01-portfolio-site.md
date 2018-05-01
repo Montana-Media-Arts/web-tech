@@ -1,5 +1,5 @@
 ---
-title: Option 1: Portfolio Site
+title: Option 1 - Portfolio Site
 module: 10
 jotted: false
 ---
@@ -28,4 +28,4 @@ If you have an existing portfolio, you are also welcome to update it, utilizing 
 
 ## Submission
 
-To submit your final, create a readme as usual that discusses your process, goals, and work. Submit a link to the readme and the live site. You will submit these to the final project submission forum. 
+To submit your final, create a readme as usual that discusses your process, goals, and work. Submit a link to the readme and the live site. You will submit these to the final project submission forum.

@@ -1,5 +1,5 @@
 ---
-title: Option 2: Reflection Paper
+title: Option 2 - Reflection Paper
 module: 10
 jotted: false
 ---
@@ -18,7 +18,7 @@ The paper should discuss each of the following in some way (order is up to you);
 4. What specific skills have you learned in this course?
 5. What skills do you wish you had learned more about in this course?
 
-> This should be a multi-page paper that discusses these questions in-depth. The goal of this project is to offer you an opportunity to practice talking about web development, where you think it is going, and your role in this world. 
+> This should be a multi-page paper that discusses these questions in-depth. The goal of this project is to offer you an opportunity to practice talking about web development, where you think it is going, and your role in this world.
 
 ## Submission
 
